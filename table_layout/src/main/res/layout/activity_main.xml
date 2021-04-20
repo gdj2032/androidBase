@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    collapseColumns 隐藏第几列 1,2,3以逗号分隔
+    stretchColumns 第一列拉伸 1,2 充满剩余空间
+    shrinkColumns 允许第一列收缩 1,2
+     -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    android:stretchColumns="2"
+
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账  号:"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入手机号"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密  码:"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"
+            />
+        <TextView />
+    </TableRow>
+
+    <TableRow
+        >
+        <TextView />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            />
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:background="#FF8352"
+            />
+        <TextView />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        >
+        <TextView />
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码?"
+            android:gravity="right"
+            android:textColor="#f00"
+            />
+        <TextView />
+
+    </TableRow>
+
+</TableLayout>

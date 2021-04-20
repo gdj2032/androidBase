@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">application</string>
+    <string name="title_home">基础</string>
+    <string name="title_dashboard">高级UI</string>
+    <string name="title_notifications">Notifications</string>
+
+
+
+    //包名,路径名
+    <string name="pkg_name">com.example.application</string>
+    <string name="username">账 号</string>
+    <string name="username_hint">请输入账号</string>
+    <string name="password">密 码</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="login">登 录</string>
+    <string name="register">注册</string>
+    <string name="t_table">表格</string>
+    <string name="t_date_picker">日期组件</string>
+    <string name="t_time_picker">时间组件</string>
+    <string name="t_custom_view">自定义组件</string>
+    <string name="t_radio_group">单选组件</string>
+    <string name="t_code_to_ui">代码显示UI</string>
+    <string name="t_time_interval">定时器</string>
+    <string name="t_progress_view">进度条</string>
+    <string name="t_progress_ctrl">----------------------------------进度条控制----------------------------------</string>
+
+</resources>

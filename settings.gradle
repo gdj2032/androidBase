@@ -1,0 +1,7 @@
+include ':application'
+include ':layout_nest'
+include ':grid_layout'
+include ':frame_layout'
+include ':linear_layout'
+include ':relative_layout'
+rootProject.name = "as-test1"

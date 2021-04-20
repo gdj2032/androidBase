@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/table_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onTable"
+            android:text="@string/t_table"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/date_picker_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onDatePicker"
+            android:text="@string/t_date_picker"
+            tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/time_picker_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onTimePicker"
+            android:text="@string/t_time_picker"
+            tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/custom_view_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCustomView"
+            android:text="@string/t_custom_view"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/radio_group_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioGroup"
+            android:text="@string/t_radio_group"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/java_show_ui_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onJavaShowUI"
+            android:text="@string/t_code_to_ui"
+            tools:ignore="OnClick" />
+
+
+        <Button
+            android:id="@+id/time_interval_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onTimeInterval"
+            android:text="@string/t_time_interval"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/progress_view_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onProgressView"
+            android:text="@string/t_progress_view"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+</ScrollView>
