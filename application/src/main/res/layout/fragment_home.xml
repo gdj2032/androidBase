@@ -73,6 +73,14 @@
             android:text="@string/t_progress_view"
             tools:ignore="OnClick" />
 
+        <Button
+            android:id="@+id/image_swiper_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onImageSwiper"
+            android:text="@string/t_image_swiper"
+            tools:ignore="OnClick" />
+
     </LinearLayout>
 
 </ScrollView>

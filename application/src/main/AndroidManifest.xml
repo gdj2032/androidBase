@@ -19,12 +19,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".page.base.datePicker.DatePickerView" />
+        <activity android:name=".page.base.tableView.TableView" />
         <activity android:name=".page.base.timePicker.TimePickerView" />
         <activity android:name=".page.base.customView.CustomView" />
         <activity android:name=".page.base.radioGroupView.RadioGroupView" />
         <activity android:name=".page.base.javaShowUI.JavaShowUI" />
         <activity android:name=".page.base.timeInterval.TimeInterval" />
         <activity android:name=".page.senior.progressView.ProgressView" />
+        <activity android:name=".page.senior.imageSwiper.ImageSwiper" />
     </application>
 
 </manifest>

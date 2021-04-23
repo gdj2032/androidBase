@@ -22,6 +22,8 @@
     <string name="t_code_to_ui">代码显示UI</string>
     <string name="t_time_interval">定时器</string>
     <string name="t_progress_view">进度条</string>
+    <string name="t_image_swiper">图像切换器</string>
     <string name="t_progress_ctrl">----------------------------------进度条控制----------------------------------</string>
+    <string name="t_seek_bar_ctrl">----------------------------------拖动条控制----------------------------------</string>
 
 </resources>

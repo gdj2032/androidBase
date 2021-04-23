@@ -64,6 +64,26 @@
         android:layout_below="@+id/bar_text1"
         android:layout_marginTop="20dp"
         />
+    <TextView
+        android:id="@+id/id_seek_bar_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/t_seek_bar_ctrl"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/progress_bar"
+        android:layout_marginTop="20dp"
+        />
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="40"
+        android:layout_below="@id/id_seek_bar_start"
+        android:layout_marginTop="20dp"
+        android:thumb="@mipmap/rabbit"
+        />
 
 
 </RelativeLayout>

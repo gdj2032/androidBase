@@ -72,4 +72,7 @@ public class MainActivity extends AppCompatActivity {
         onIntent("com.example.application.page.senior.progressView.ProgressView");
     }
 
+    public void onImageSwiper(View view) {
+        onIntent("com.example.application.page.senior.imageSwiper.ImageSwiper");
+    }
 }
